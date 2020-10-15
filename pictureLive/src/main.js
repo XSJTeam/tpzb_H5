@@ -12,9 +12,7 @@ import {
 } from '@/config'
 //挂载全局
 Vue.prototype.$cdn = $cdn
-Vue.prototype.$loading = Loading;
-// 全局引入按需引入UI库 vant
-import '@/plugins/vant'
+Vue.prototype.$loading = Loading; 
 // 引入全局样式
 import '@/assets/css/index.scss'
 // 移动端适配
